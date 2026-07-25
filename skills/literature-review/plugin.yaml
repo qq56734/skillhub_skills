@@ -1,0 +1,19 @@
+name: literature-review
+display_name: Literature Review
+description: |-
+  Conduct rigorous, fact-checked academic literature reviews. Synthesizes sources, traces citation chains,
+  flags weak claims, and produces structured outputs (narrative, systematic, scoping, or thematic).
+  Trigger when: user asks for a "literature review", "lit review", "background research", "state of the field",
+  "what does the research say about…", "summarize the literature on…", "find sources on…", or runs /lit-review.
+  Works from sources the user provides (PDFs, links, citations) AND from web/database search when allowed.
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: Marazii
+  tags:
+    - research
+    - literature-review
+    - academic
+  license: MIT
+  source_repo: Marazii/research-co-pilot

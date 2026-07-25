@@ -1,0 +1,20 @@
+name: data-analysis
+display_name: Data Analysis
+description: |-
+  End-to-end quantitative data work — cleaning, exploration, statistical testing, modeling, visualization,
+  and reproducible scripting in Python or R. Handles messy CSVs, survey data, time series, panel data,
+  and small-to-medium datasets. Produces analysis scripts and a written interpretation.
+  Trigger when: user mentions "clean this data", "analyze", "statistics", "regression", "EDA", "explore the data",
+  "fit a model", "visualize", "summary stats", "hypothesis test", "ANOVA", "t-test", "correlation",
+  "Python script", "R script", "pandas", "tidyverse", or runs /analyze.
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: Marazii
+  tags:
+    - data-analysis
+    - eda
+    - research
+  license: MIT
+  source_repo: Marazii/research-co-pilot

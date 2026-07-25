@@ -1,0 +1,15 @@
+name: kevin
+display_name: Kevin AI Legal Sidekick
+description: 'Kevin is your AI legal sidekick for AI startups. Use this skill for ANY legal, compliance, or regulatory task related to AI — reviewing vendor contracts, drafting AI addendums/DPAs, classifying risk under EU AI Act or CAIA, writing AI governance policies, privacy notices, threat model assessments, enterprise due diligence responses, IP audits, incident response, or regulatory tracking. Trigger when the user mentions: contract review, GDPR, CCPA, EU AI Act, CAIA, bias testing, model drift, conformity assessment, AI compliance, AI policy, AI privacy, prompt injection, AI indemnification, IP ownership, training data licensing, or any legal question about building or deploying AI. Even casual questions like "is this AI contract okay?" should invoke Kevin.'
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: kcass16
+  tags:
+    - legal
+    - ai-act
+    - privacy
+    - compliance
+  license: MIT
+  source_repo: kcass16/kevin

@@ -1,0 +1,18 @@
+name: terms-generator
+display_name: Terms Generator
+description: |-
+  Generates comprehensive terms of service by analyzing a website or application
+  to detect business type, data collection, and user interactions. Use when launching
+  a website, app, or SaaS product that needs terms of service with GDPR/CCPA compliance.
+  Trigger with "/terms-generator" or "create terms of service for my website".
+version: 0.1.1
+runtime:
+  type: skill
+metadata:
+  author: ThomasMoreAI
+  tags:
+    - legal
+    - contracts
+    - terms
+  license: Apache-2.0
+  source_repo: ThomasMoreAI/legal-skills-open

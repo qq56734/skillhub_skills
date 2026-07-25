@@ -1,0 +1,14 @@
+name: peer-review
+display_name: Peer Review
+description: 'Rigorous academic peer review in the voice of a seasoned professor. Two verdict modes (paper, homework), five alternative workflows (committee panel, fact-check audit, plagiarism-check, draft thinking-partner, presentation feedback), plus iterate mode for post-review dialogue. Auto-detects Hebrew or English and the work''s academic domain (any field) and applies rigor criteria for that field. Annotates source documents at the relevant text / shape / page locations and returns a reviewed file: .docx (inline comments + tracked changes), .pdf (sticky notes + highlights), .pptx (native comments on slides / shapes), .tex (LaTeX reviewer comments). Use this skill when the user invokes /peer-review, asks to review, critique, evaluate, or give feedback on a paper, thesis, essay, dissertation chapter, problem set, course assignment, conference talk, or slide deck. Also for panel-style review, fact-check or plagiarism audit, generative feedback on unfinished work, presentation feedback, or continuing a prior review.'
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: Marazii
+  tags:
+    - research
+    - peer-review
+    - academic
+  license: MIT
+  source_repo: Marazii/research-co-pilot

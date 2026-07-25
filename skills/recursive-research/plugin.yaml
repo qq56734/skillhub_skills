@@ -1,0 +1,14 @@
+name: recursive-research
+display_name: Recursive Research
+description: Investigación recursiva profunda con loop auto-regulado hasta nivel PhD. Aplicable a cualquier dominio (ciencia, tecnología, negocio, arte, humanidades). Usa WDM + Inversión Munger para decisiones autónomas, tiering de fuentes confiables, y checkpointing a disco para sobrevivir límites de contexto.
+version: 2.2.0
+runtime:
+  type: skill
+metadata:
+  author: Anjos2
+  tags:
+    - research
+    - deep-research
+    - literature
+  license: MIT
+  source_repo: Anjos2/recursive-research

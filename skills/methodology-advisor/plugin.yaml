@@ -1,0 +1,22 @@
+name: methodology-advisor
+display_name: Methodology Advisor
+description: |-
+  Advise on quantitative and qualitative research methodology — design, sampling, validity, reliability,
+  measurement, ethics, analysis plan, and — mandatory in every methodology output — creative AI / ML /
+  Big Data extensions tailored to the specific research question. The creative-extensions section is not
+  optional: it forces researchers to consider non-conventional, modern methods before settling on a design.
+  Trigger when: user asks about "study design", "research design", "methodology", "what method should I use",
+  "sample size", "power analysis", "sampling strategy", "validity", "reliability", "IRB", "pre-registration",
+  "RCT vs quasi-experiment", "qualitative vs quantitative", "AI methods for my study", "ML approach", "big
+  data approach", "creative methods", or runs /methodology.
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: Marazii
+  tags:
+    - research
+    - methodology
+    - study-design
+  license: MIT
+  source_repo: Marazii/research-co-pilot

@@ -1,0 +1,15 @@
+name: harvey
+display_name: Harvey Legal
+description: 'AI law firm with multi-agent orchestration for legal document review, contract analysis, compliance audits, redlining, and legal research. Use when the user says /harvey, ''legal review'', ''review this contract'', ''analyze this agreement'', ''compliance review'', ''redline this'', ''legal research on'', ''draft an NDA'', ''employment agreement review'', ''IP review'', ''what are the legal risks'', or any request involving legal analysis, contract review, regulatory compliance, document drafting, or redlining. Routes work through a full law firm hierarchy: paralegal triage, 8 specialist attorneys, senior associates, and a managing partner who synthesizes everything. Produces risk matrices, compliance gap analyses, IRAC memos, redlined .docx files, and strategic legal assessments. Also triggers on ''Harvey'', ''legal risk'', ''clause analysis'', ''contract risk'', ''due diligence review'', ''NDA review'', ''MSA review'', ''SaaS agreement'', ''HIPAA compliance'', ''privacy review'', ''non-compete review'', ''IP assignment''.'
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: xkaluv
+  tags:
+    - legal
+    - law-firm
+    - contract-review
+    - compliance
+  license: MIT
+  source_repo: xkaluv/harvey

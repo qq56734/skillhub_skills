@@ -1,0 +1,15 @@
+name: master-claude-for-legal
+display_name: Master Claude for Legal
+description: Master skill for legal teams using Claude. Loads the right reference for the user's question (privilege configuration, MCP hardening, MCP connector catalog, practice-area plugins, Microsoft 365 surfaces, managed agents, cold-start interview, verification, long documents, practice-area patterns, skill authoring) and routes to specialized starter skills (NDA triage, version diff, tabular review, meeting brief, citation verification, status synthesis). Auto-invokes when the user mentions legal work, contracts, redlines, NDAs, deal-room diligence, privilege, attorney-client, court filings, depositions, regulatory compliance, M&A diligence, Claude in Word/Excel/PowerPoint/Outlook, managed legal agents, or asks how to set up Claude for a law firm or in-house legal team.
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: sboghossian
+  tags:
+    - legal
+    - law
+    - contract
+    - compliance
+  license: MIT
+  source_repo: sboghossian/master-claude-for-legal

@@ -1,0 +1,15 @@
+name: china-pipl
+display_name: China PIPL Compliance
+description: 'Guides compliance with China''s Personal Information Protection Law (PIPL, effective 1 November 2021). Covers consent requirements, cross-border transfer mechanisms (CAC security assessment, standard contracts, certification), separate consent triggers, and critical information infrastructure obligations. Keywords: PIPL, China data protection, CAC security assessment, cross-border transfer, separate consent, CIIO.'
+version: 0.1.0
+runtime:
+  type: skill
+metadata:
+  author: ThomasMoreAI
+  tags:
+    - legal
+    - pipl
+    - privacy
+    - china
+  license: Apache-2.0
+  source_repo: ThomasMoreAI/legal-skills-open

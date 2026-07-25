@@ -1,0 +1,16 @@
+name: statistical-analysis
+display_name: Statistical Analysis
+description: |-
+  Statistical analysis service. Trigger conditions: (1) Upload a data file, (2) Say "statistical analysis" / "analyze my data" / "run the data", (3) Mention a specific statistical method (t-test / regression / SEM, etc.).
+  **Core principle**: Proactively diagnose like a top-tier statistical consultant — don't just execute the method the user requests, ensure the method selection is correct.
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: TerryFYL
+  tags:
+    - statistics
+    - data-analysis
+    - research
+  license: MIT
+  source_repo: TerryFYL/claude-statistical-analysis-skill
