@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "description": "SkillHub imported skills - ace_skills 41-81 review batch (6 skills, fully independent from main skillhub_skills repo)",
+  "source_review": "C:\\Users\\qq567\\Desktop\\codes\\projects\\ace_skills\\_review_41_81\\review_report_41_81.md",
+  "audit_dates": {
+    "initial": "2026-08-17",
+    "author_search_update": "2026-08-18",
+    "vpn_github_api_verification": "2026-08-20"
+  },
+  "categories": {
+    "data-science-research": "数据与科研",
+    "frontend-dev": "前端开发",
+    "developer-tools": "开发工具",
+    "productivity": "办公与生产力",
+    "meta": "元方法论"
+  },
+  "skills": [
+    {
+      "name": "grill-me",
+      "display_name": "Grill Me",
+      "source_repo": "mattpocock/skills",
+      "fetched_commit": "main",
+      "license": "MIT",
+      "license_path": "skills/grill-me/grill-me/LICENSE",
+      "category": "meta",
+      "upload_status": "ready",
+      "verdict_note": "上游 MIT 已核实；触发词明确，仅依赖 Read/Grep"
+    },
+    {
+      "name": "knowledge-organizer-xiaping",
+      "display_name": "Knowledge Organizer (Xiápíng)",
+      "source_repo": "cjke84/knowledge-organizer",
+      "fetched_commit": "main",
+      "license": "MIT",
+      "license_path": "skills/knowledge-organizer-xiaping/knowledge-organizer-xiaping/LICENSE",
+      "category": "data-science-research",
+      "upload_status": "ready",
+      "verdict_note": "上游 MIT 已核实；本地 16 个脚本与上游逐一吻合；Obsidian 模式免 key"
+    },
+    {
+      "name": "landing-page-generator",
+      "display_name": "Landing Page Generator",
+      "source_repo": "jezweb/claude-skills",
+      "fetched_commit": "main",
+      "subpath": "plugins/frontend/skills/landing-page",
+      "license": "MIT",
+      "license_path": "skills/landing-page-generator/landing-page-generator/LICENSE",
+      "category": "frontend-dev",
+      "upload_status": "ready",
+      "verdict_note": "上游 MIT 已核实；本地为 MIT 改写版"
+    },
+    {
+      "name": "mcp-builder",
+      "display_name": "MCP Builder",
+      "source_repo": "anthropics/skills",
+      "fetched_commit": "main",
+      "subpath": "skills/mcp-builder",
+      "license": "Apache-2.0",
+      "license_path": "skills/mcp-builder/mcp-builder/LICENSE.txt",
+      "category": "developer-tools",
+      "upload_status": "ready",
+      "verdict_note": "Anthropic 官方仓库，Apache-2.0；4 个 reference + evaluation.py"
+    },
+    {
+      "name": "markitdown-skill",
+      "display_name": "MarkItDown",
+      "source_repo": "microsoft/markitdown",
+      "fetched_commit": "main",
+      "license": "MIT",
+      "license_path": "skills/markitdown-skill/markitdown-skill/UPSTREAM-LICENSE.txt",
+      "license_note": "upstream CLI verified MIT via jsDelivr; packaging wrapper has no copyright declaration",
+      "category": "data-science-research",
+      "upload_status": "caution",
+      "verdict_note": "上游 MIT 已核实；包装文件作者未知；附上游 LICENSE 并注明"
+    },
+    {
+      "name": "oracle",
+      "display_name": "Oracle (Cross-Model Review)",
+      "source_repo": "steipete/oracle",
+      "fetched_commit": "main",
+      "license": "MIT",
+      "license_path": "skills/oracle/oracle/UPSTREAM-LICENSE.txt",
+      "license_note": "upstream CLI verified MIT via jsDelivr (Copyright (c) 2026 Peter Steinberger); packaging wrapper has no copyright declaration",
+      "category": "developer-tools",
+      "upload_status": "caution",
+      "verdict_note": "上游 CLI MIT；包装文件作者未知；附上游 LICENSE 并注明"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+name: markitdown-skill
+display_name: MarkItDown
+description: Convert documents to Markdown using Microsoft's MarkItDown CLI. Supports PDF, Word, PowerPoint, Excel, images (OCR), audio (transcription), HTML, YouTube, and URLs. Wraps the upstream microsoft/markitdown tool (MIT) with usage guidance; packaging wrapper itself has no declared copyright.
+version: 1.0.1
+runtime:
+  type: skill
+metadata:
+  author: unknown_wrapper
+  upstream_author: Microsoft Corporation
+  tags:
+    - markdown
+    - conversion
+    - ocr
+    - documents
+  license: MIT
+  source_repo: microsoft/markitdown
+  source_repo_status: upstream_verified_wrapper_unverified
+  category: data-science-research
+  caution: Upstream CLI is MIT-licensed (verified). The skill packaging files in this directory have no copyright declaration; the wrapper author is unknown. See UPSTREAM-LICENSE.txt.

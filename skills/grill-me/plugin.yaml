@@ -1,0 +1,15 @@
+name: grill-me
+display_name: Grill Me
+description: Question your design decisions relentlessly. Use when the user wants a plan or design interrogated layer by layer until consensus is reached. Triggers on phrases like "grill me", "challenge my plan", "stress test this design", "poke holes in this", or "what am I missing". Depends only on Read and Grep tools.
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: Matt Pocock
+  tags:
+    - meta
+    - planning
+    - decision-making
+  license: MIT
+  source_repo: mattpocock/skills
+  category: meta
