@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "description": "SkillHub imported skills - ace_skills 41-81 review batch (8 skills, fully independent from main skillhub_skills repo)",
+  "description": "SkillHub imported skills - ace_skills 41-81 review batch (6 skills, fully independent from main skillhub_skills repo)",
   "source_review": "C:\\Users\\qq567\\Desktop\\codes\\projects\\ace_skills\\_review_41_81\\review_report_41_81.md",
   "audit_dates": {
     "initial": "2026-08-17",
@@ -12,7 +12,6 @@
     "frontend-dev": "前端开发",
     "developer-tools": "开发工具",
     "productivity": "办公与生产力",
-    "mobile": "移动开发",
     "meta": "元方法论"
   },
   "skills": [
@@ -63,18 +62,6 @@
       "verdict_note": "Anthropic 官方仓库，Apache-2.0；4 个 reference + evaluation.py"
     },
     {
-      "name": "ios-application-dev",
-      "display_name": "iOS Application Development",
-      "source_repo": "MiniMax-AI/AgentSkills",
-      "fetched_commit": "unverified",
-      "license": "MIT (self-declared)",
-      "license_path": "skills/ios-application-dev/ios-application-dev/LICENSE-NOTE.md",
-      "license_note": "frontmatter self-declared MIT (author=MiniMax-OpenSource); upstream repo returns 404 via both jsDelivr and GitHub API",
-      "category": "mobile",
-      "upload_status": "caution",
-      "verdict_note": "上游仓库 404（jsDelivr + GitHub API 双重验证），author MiniMax-OpenSource 在 GitHub 上无对应账户；建议联系作者后再上传"
-    },
-    {
       "name": "markitdown-skill",
       "display_name": "MarkItDown",
       "source_repo": "microsoft/markitdown",
@@ -85,19 +72,6 @@
       "category": "data-science-research",
       "upload_status": "caution",
       "verdict_note": "上游 MIT 已核实；包装文件作者未知；附上游 LICENSE 并注明"
-    },
-    {
-      "name": "note-organizer",
-      "display_name": "Note Organizer (Joplin)",
-      "source_repo": "bytesagain/ai-skills",
-      "fetched_commit": "main",
-      "license": "MIT (author main repo)",
-      "license_path": "skills/note-organizer/note-organizer/LICENSE-NOTE.md",
-      "license_note": "author BytesAgain's main repo declares MIT in README; this specific skill not present in that repo",
-      "category": "productivity",
-      "upload_status": "caution",
-      "author_contact": "hello@bytesagain.com",
-      "verdict_note": "作者主仓库 MIT，但此 skill 不在仓库中；联系作者确认"
     },
     {
       "name": "oracle",
