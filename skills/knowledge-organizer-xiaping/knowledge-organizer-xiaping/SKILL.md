@@ -1,5 +1,5 @@
 ---
-name: knowledge-organizer
+name: knowledge-organizer-xiaping
 license: MIT
 description: An OpenClaw- and Codex-compatible knowledge organization skill for importing articles, organizing notes, syncing to Feishu and Tencent IMA, applying tags, archiving content, generating summaries, and suggesting related notes.
 env:
