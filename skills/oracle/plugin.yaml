@@ -1,0 +1,18 @@
+name: oracle
+display_name: Oracle (Cross-Model Review)
+description: Use the @steipete/oracle CLI to bundle a prompt plus the right files and get a second-model review (API or browser) for debugging, refactors, design checks, or cross-validation. Wraps the upstream @steipete/oracle CLI (MIT) with usage guidance; packaging wrapper itself has no declared copyright.
+version: 1.0.1
+runtime:
+  type: skill
+metadata:
+  author: unknown_wrapper
+  upstream_author: Peter Steinberger
+  tags:
+    - code-review
+    - cli
+    - cross-validation
+  license: MIT
+  source_repo: steipete/oracle
+  source_repo_status: upstream_verified_wrapper_unverified
+  category: developer-tools
+  caution: Upstream CLI is MIT-licensed (verified, Copyright (c) 2026 Peter Steinberger). The skill packaging files in this directory have no copyright declaration; the wrapper author is unknown. Upload with upstream LICENSE retained and a note that the wrapper author is unknown.

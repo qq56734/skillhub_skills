@@ -44,32 +44,42 @@ node scripts/publish-all.mjs
 
 ## 署名与 License
 
-每个 skill 的原始 LICENSE 文本保留在 `skills/<name>/LICENSE`。所有源 skill 均为 MIT 或 Apache-2.0。上游来源与 commit 记录在 `manifest.json` 的 `source_repo` / `fetched_commit` 字段。
+每个 skill 的原始 LICENSE 文本保留在 `skills/<name>/<name>/LICENSE`（或 LICENSE.txt）。所有源 skill 均为 MIT 或 Apache-2.0。上游来源与 commit 记录在 `manifest.json` 的 `source_repo` / `fetched_commit` 字段。
 
-| skill | 来源 | license | 类目 |
-|---|---|---|---|
-| citation-management | hmzainjamil/claude-scientific-skills | MIT | 数据与科研 |
-| data-analysis | Marazii/research-co-pilot | MIT | 数据与科研 |
-| exploratory-data-analysis | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 |
-| experimental-design | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 |
-| literature-review | Marazii/research-co-pilot | MIT | 数据与科研 |
-| methodology-advisor | Marazii/research-co-pilot | MIT | 数据与科研 |
-| paper-search-pro | O0000-code/paper-search-pro | Apache-2.0 | 数据与科研 |
-| peer-review | Marazii/research-co-pilot | MIT | 数据与科研 |
-| recursive-research | Anjos2/recursive-research | MIT | 数据与科研 |
-| scholar-evaluation | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 |
-| scientific-visualization | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 |
-| scientific-writing | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 |
-| statistical-analysis | TerryFYL/claude-statistical-analysis-skill | MIT | 数据与科研 |
-| statistical-power | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 |
-| ai-act-compliance | abk1969/ai-act-skills | MIT | 合规与法律 |
-| ai-deployment-checklist | ThomasMoreAI/legal-skills-open | Apache-2.0 | 合规与法律 |
-| china-pipl | ThomasMoreAI/legal-skills-open | Apache-2.0 | 合规与法律 |
-| gdpr | ThomasMoreAI/legal-skills-open | Apache-2.0 | 合规与法律 |
-| harvey | xkaluv/harvey | MIT | 合规与法律 |
-| kevin | kcass16/kevin | MIT | 合规与法律 |
-| master-claude-for-legal | sboghossian/master-claude-for-legal | MIT | 合规与法律 |
-| terms-generator | ThomasMoreAI/legal-skills-open | Apache-2.0 | 合规与法律 |
+| skill | 来源 | license | 类目 | 状态 |
+|---|---|---|---|---|
+| citation-management | hmzainjamil/claude-scientific-skills | MIT | 数据与科研 | ready |
+| data-analysis | Marazii/research-co-pilot | MIT | 数据与科研 | ready |
+| exploratory-data-analysis | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 | ready |
+| experimental-design | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 | ready |
+| literature-review | Marazii/research-co-pilot | MIT | 数据与科研 | ready |
+| methodology-advisor | Marazii/research-co-pilot | MIT | 数据与科研 | ready |
+| paper-search-pro | O0000-code/paper-search-pro | Apache-2.0 | 数据与科研 | ready |
+| peer-review | Marazii/research-co-pilot | MIT | 数据与科研 | ready |
+| recursive-research | Anjos2/recursive-research | MIT | 数据与科研 | ready |
+| scholar-evaluation | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 | ready |
+| scientific-visualization | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 | ready |
+| scientific-writing | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 | ready |
+| statistical-analysis | TerryFYL/claude-statistical-analysis-skill | MIT | 数据与科研 | ready |
+| statistical-power | K-Dense-AI/scientific-agent-skills | MIT | 数据与科研 | ready |
+| ai-act-compliance | abk1969/ai-act-skills | MIT | 合规与法律 | ready |
+| ai-deployment-checklist | ThomasMoreAI/legal-skills-open | Apache-2.0 | 合规与法律 | ready |
+| china-pipl | ThomasMoreAI/legal-skills-open | Apache-2.0 | 合规与法律 | ready |
+| gdpr | ThomasMoreAI/legal-skills-open | Apache-2.0 | 合规与法律 | ready |
+| harvey | xkaluv/harvey | MIT | 合规与法律 | ready |
+| kevin | kcass16/kevin | MIT | 合规与法律 | ready |
+| master-claude-for-legal | sboghossian/master-claude-for-legal | MIT | 合规与法律 | ready |
+| terms-generator | ThomasMoreAI/legal-skills-open | Apache-2.0 | 合规与法律 | ready |
+| **grill-me** | mattpocock/skills | MIT | 元方法论 | ready |
+| **knowledge-organizer-xiaping** | cjke84/knowledge-organizer | MIT | 数据与科研 | ready |
+| **landing-page-generator** | jezweb/claude-skills | MIT | 前端开发 | ready |
+| **mcp-builder** | anthropics/skills | Apache-2.0 | 开发工具 | ready |
+| *ios-application-dev* | MiniMax-AI/AgentSkills | MIT（自称） | 移动开发 | **caution** |
+| *markitdown-skill* | microsoft/markitdown（上游 MIT） | MIT（上游）；包装未声明 | 数据与科研 | **caution** |
+| *note-organizer* | bytesagain/ai-skills | MIT（作者主仓库） | 办公与生产力 | **caution** |
+| *oracle* | steipete/oracle（上游 MIT） | MIT（上游）；包装未声明 | 开发工具 | **caution** |
+
+**2026-08-18 新增 8 个 skill**（来自 `ace_skills/_review_41_81` 审查批次 41-81）：粗体 4 个 `ready` 状态协议完整，可直接打包上传；斜体 4 个 `caution` 状态需附条件或先联系作者确认。详细审查报告：`C:\Users\qq567\Desktop\codes\projects\ace_skills\_review_41_81\review_report_41_81.md`。
 
 ## 测试结果
 

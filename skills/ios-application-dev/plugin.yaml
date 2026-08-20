@@ -1,0 +1,19 @@
+name: ios-application-dev
+display_name: iOS Application Development
+description: iOS application development guide covering UIKit, SnapKit, and SwiftUI. Includes touch targets, safe areas, navigation patterns, Dynamic Type, Dark Mode, accessibility, collection views, common UI components, and SwiftUI design guidelines with 10 reference documents.
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: MiniMax-OpenSource
+  tags:
+    - ios
+    - mobile
+    - swift
+    - uikit
+    - swiftui
+  license: MIT
+  source_repo: MiniMax-AI/AgentSkills
+  source_repo_status: repository_unverified_404
+  category: mobile
+  caution: Frontmatter self-declares MIT under author MiniMax-OpenSource; suspected upstream repository (MiniMax-AI/AgentSkills) returns 404. License cannot be independently verified. Use only after confirming with the author.

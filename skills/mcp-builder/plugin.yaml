@@ -1,0 +1,15 @@
+name: mcp-builder
+display_name: MCP Builder
+description: Authoritative guide for building Model Context Protocol (MCP) servers. Covers both Python (FastMCP) and TypeScript SDKs, with reference docs on MCP best practices, evaluation harness, connection patterns, and prompt/tool/resource design. Maintained by Anthropic PBC.
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: Anthropic PBC
+  tags:
+    - mcp
+    - developer-tools
+    - protocol
+  license: Apache-2.0
+  source_repo: anthropics/skills
+  category: developer-tools
