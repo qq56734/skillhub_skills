@@ -1,0 +1,15 @@
+name: knowledge-organizer-xiaping
+display_name: Knowledge Organizer (Xiápíng)
+description: Import and organize knowledge batches into an Obsidian vault with deduplication, tagging, summary, and cross-source association. Supports syncing to Obsidian, Feishu, and IMA knowledge bases. Pure Obsidian mode requires no API key. Includes 16 Python scripts validated against the upstream repo.
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: Jingke Chen
+  tags:
+    - knowledge-management
+    - obsidian
+    - note-taking
+  license: MIT
+  source_repo: cjke84/knowledge-organizer
+  category: data-science-research

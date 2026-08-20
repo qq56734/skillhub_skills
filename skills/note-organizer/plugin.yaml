@@ -1,0 +1,18 @@
+name: note-organizer
+display_name: Note Organizer (Joplin)
+description: Joplin-based personal note manager and knowledge base. Provides simple commands for creating, listing, searching, editing, tagging, and exporting notes. Built on the Joplin CLI plus API token. Original implementation by BytesAgain.
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: BytesAgain
+  tags:
+    - notes
+    - joplin
+    - knowledge-management
+  license: MIT
+  source_repo: bytesagain/ai-skills
+  source_repo_status: author_verified_skill_not_in_repo
+  author_contact: hello@bytesagain.com
+  category: productivity
+  caution: Author BytesAgain's main repository github.com/bytesagain/ai-skills declares MIT in its README (no standard LICENSE file). However, this specific note-organizer skill is NOT present in that repo. License is inferred from author's overall policy. Contact author to confirm before commercial use. See LICENSE-NOTE.md.

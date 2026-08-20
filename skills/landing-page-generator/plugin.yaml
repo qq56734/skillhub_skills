@@ -1,0 +1,15 @@
+name: landing-page-generator
+display_name: Landing Page Generator
+description: Generate a single self-contained HTML landing page from a business brief (product, value proposition, CTA, brand colors). Produces responsive, dark-mode-aware, FAQ-inclusive HTML with full Open Graph metadata. No external dependencies; output is one deployable file.
+version: 1.0.0
+runtime:
+  type: skill
+metadata:
+  author: Jeremy Dawes (Jezweb)
+  tags:
+    - frontend
+    - marketing
+    - html
+  license: MIT
+  source_repo: jezweb/claude-skills
+  category: frontend-dev
